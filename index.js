@@ -1,3 +1,7 @@
+/*
+ Basic sub/unsubscribe with express serving the API endpoints.
+ Copy config.example.js to config.js before using
+*/
 var config = require('./config');
 
 var Verify = require('./lib/Verification')(config);
