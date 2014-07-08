@@ -1,0 +1,27 @@
+{
+    "name": "email-opt-in",
+    "description": "Simple email address opt-in using redis and an email SaaS such as mandrill.",
+    "keywords": [
+        "email",
+        "opt-in"
+    ],
+    "version": "0.0.1",
+    "author": "Nathan Johson <node@njohnson.me>",
+    "bugs": {
+        "url": "https://github.com/n-johnson/email-opt-in/issues"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://raw.github.com/n-johnson/email-opt-in/master/LICENSE"
+    }],
+    "dependencies": {
+        "redis": "~0.10.X",
+        "mandrill-api": "~1.0.0",
+        "email-validator": "~1.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/n-johnson/email-opt-in"
+    },
+    "main": "lib/app.js"
+}
